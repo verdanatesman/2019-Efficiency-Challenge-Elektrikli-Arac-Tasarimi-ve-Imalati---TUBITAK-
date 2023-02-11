@@ -1,0 +1,738 @@
+ naber arkadaşlarım tekrar hoşgeldiniz 
+
+ geçmişte öğretici bir inşa ettik 
+
+ fırçasız elektronik hız kontrolü 
+
+ motorlar bu cıvata 
+
+ öğretici ve bu Arduino dayanmaktadır bu 
+
+ sensörsüz fırçasız için bir ESC 
+
+ bu videoda size nasıl olduğunu göstereceğim 
+
+ rotorun konumunu tespit etmek 
+
+ arka elektro-itici kuvveti kullanarak ama 
+
+ devreyi oldukça karmaşık hale getiren 
+
+ ve ayrıca kullandığım kod değil 
+
+ En iyisi de bu öğreticide 
+
+ başka bir elektronik hız kontrolü oluşturun 
+
+ fırçasız motorlar için ve ayrıca geliştirmek 
+
+ kod yani çocuklar burada ne olduğumuzu 
+
+ yapacağım fırçasız alacağım 
+
+ eski bir CD yazarından 
+
+ bunun için bir devre kuracağız 
+
+ salondan sinyalleri yükseltmek 
+
+ sensörler sonra üçlü inşa edecek 
+
+ faz köprüsü ve hız kontrolörü 
+
+ ve son olarak kesintileri kullanmak 
+
+ radyo alıcısından PW girişini okuma 
+
+ ve motorun hızını 
+
+ herhangi bir konvansiyon gibi 
+
+ iletim kontrolü bunu yapalım 
+
+ başla bu proje size getirildi 
+
+ tarafından üreticisi jl c PCB 
+
+ 10'dan fazla hızlı PCB prototipleri 
+
+ yıl ve herkes için kullandığım site 
+
+ benim pc b - 's tasarım alkışlamak senin 
+
+ GL c PCB sitesindeki Gerber dosyaları 
+
+ PCB tam inceleme seçin 
+
+ İstediğiniz ayarları yapın ve PCB'yi 
+
+ inanılmaz fiyatları on sipariş ettim 
+
+ prototip PCB'ler sadece 2,00 $ ve 
+
+ altı gün içinde onları al doğru 
+
+ böylece kalite PCB sipariş ve yapmak 
+
+ projeler çok daha profesyonel görünüyor 
+
+ naber arkadaşlarım tekrar hoşgeldiniz 
+
+ bu eğitimde bir sensör var 
+
+ fırçasız motor böyle bir 
+
+ zaten sensörler güçlendirilmiş ve 
+
+ buradaki üç sensör çıkışının her biri 
+
+ ama ne yazık ki bu motor çok büyük 
+
+ ve büyük miktarda akım gerektirir 
+
+ spin ve testler yaparken sadece 
+
+ breadboard'umu aldım ama motor 
+
+ dönmedi bile ben indirdim 
+
+ Bu öğreticinin düzeyi ve 
+
+ bu motor bu fırçasız üçlü 
+
+ Bir motordan çıkardığım yüzlü motor 
+
+ OKB yazarı tüm CD veya DVD'leri değil 
+
+ yazarlar sensör motorları kullanıyor ama bu 
+
+ motoru çıkarıp alır mıyım 
+
+ ilk bakışta açıyorum ve gördüğünüz gibi 
+
+ Motorun bobinleri ve üç 
+
+ algılayacak çok küçük delik sensörleri 
+
+ manyetik alanlar 
+
+ her sensör için dört pim iki vardır 
+
+ pozitif ve negatif çıktı ve iki için 
+
+ beş tedarik etmek zorundayız arz 
+
+ volt ve toprak her birine 
+
+ sensörler ve sonra karşılaştırmak 
+
+ sırayla negatif ve pozitif çıktılar 
+
+ Sensör sinyalimizi almak için 
+
+ dokuz kutuplu ve sensörlerin 
+
+ birbirinden 40 derece ayrılmış 
+
+ bu yüzden tespit etmek çok kolay olacak 
+
+ motorun konumu 
+
+ yapılacak ilk şey, 
+
+ yönettiğim multimetreyi kullanarak iğne 
+
+ Bu durumda her pimi bulmak için önce 
+
+ pozitif ve negatif çıktılara sahip olmak 
+
+ tüm sensörlerin pozitif ve 
+
+ negatif besleme ve her giriş 
+
+ motorun üç bobini ama 
+
+ son proje bu motoru kullandım 
+
+ burada görebileceğiniz başka bir CD yazıcı 
+
+ bu PCB üzerinde ve bu pimlerin sırası 
+
+ farklı bu bunun sırası 
+
+ kullandığım motor biraz lehim yaptım 
+
+ bir satın alırsanız bu pimlerin her birine teller 
+
+ sansürlü motor tüm sensör 
+
+ zaten mıknatıslıyken 
+
+ önünde düşük ya da 
+
+ bu durumda yüksek değer 
+
+ volt burada gördüğünüz gibi benim 
+
+ Bunu döndürdüğümde osiloskop 
+
+ ticari sansürlü motor ama bizim bütün 
+
+ sensörlerin yükseltici devresi yoktur, 
+
+ Bunu yapmak için bir sonraki şey 
+
+ beş tedarik ettiğimiz motor için şematik 
+
+ volt ve topraklama sensörleri ve sonra 
+
+ negatiflerin her birini bağlayacağız ve 
+
+ her sensörün pozitif çıkışları 
+
+ karşılaştırıcı bu durumda kullanacağım 
+
+ LM 3-4 IC zaten dört O olduğundan 
+
+ Pam 
+
+ her seferinde pozitif çıktı 
+
+ tüm sensör negatiften daha yüksek 
+
+ çıktıda yüksek anketlerimiz olacak 
+
+ pozitif veya negatif tespit edebiliriz 
+
+ manyetik alanları her şeyi bir lehim üzerine 
+
+ böyle bir çift PCB parçası hatırlıyorum 
+
+ 5'e 100 ohm direnç eklemek için 
+
+ volt ve salon sensörü pozitif 
+
+ akımı sınırlamak için besleme 
+
+ burada üç giriş var 
+
+ siyah telli motor bobinleri ve 
+
+ sensörler için beş volt besleme ve 
+
+ sensörlerin her biri güçlendirilmiş çıkışlar I 
+
+ PCB'ye güç verin ve 
+
+ osiloskop - sensör çıkışı amb 
+
+ şimdi motoru döndürüyorum ve gördüğünüz gibi 
+
+ her pim için kare bir sinyalimiz var 
+
+ faz farkının üçte biri ile 
+
+ şimdi her sinyal arasında sensörü bağlarım 
+
+ a ve C ve gördüğünüz gibi şimdi 
+
+ iki çim faz farkı bu üç 
+
+ sinyaller pozisyonu bilmemize yardımcı olacak 
+
+ rotorun tamam çocuklar bakalım 
+
+ bir kez daha fırçasız motorun nasıl 
+
+ kontrol işe yarayacak 
+
+ diğer öğreticime bir bakış 
+
+ arduino tabanlı elektronik hız 
+
+ denetleyici motorumuzda üç bobin I 
+
+ içeride dokuz bobin görebileceğimizi biliyorum 
+
+ ama gerçek şu ki bunlar üç 
+
+ bobinler üzerinde çevrimiçi anketler yara 
+
+ Motorun dışı 12 mıknatıs var 
+
+ bu motor manyetik şerit kullanır, böylece 
+
+ 12 farklı mıknatıs görmek ama orada 
+
+ bizim gibi 12 farklı polarite mıknatısı 
+
+ burada diğer fırçasız görebilirsiniz 
+
+ motor bu bizim temsili 
+
+ motor stator üzerinde dokuz kutup var 
+
+ Rotorda 12 mıknatıs ve üç 
+
+ sensörler 
+
+ üç çağrımız olduğundan 
+
+ üç giriş B ve C, böylece bir 
+
+ Bunu kontrol etmek için üç fazlı köprü 
+
+ rotasyonu kontrol etmek için motor 
+
+ bunlara güç uygulamak zorunda kalacağımız hız 
+
+ belli bir sırayla üç girdi 
+
+ bir girişe pozitif güçle başlayın 
+
+ ve B'ye toprakla C girişini bırakıyoruz 
+
+ ona bağlı hiçbir şey olmadan yüzer 
+
+ manyetik alan yaratacak. 
+
+ rotoru itecek bir bobin 
+
+ doğru ve büyük bobinlere 
+
+ rotoru da sağa sürükleyecek 
+
+ çünkü pozitif ile pozitif 
+
+ pozitif ile itici ve negatif 
+
+ çekecek ama eğer değiştirmezsek 
+
+ dönme burada duracak girişler 
+
+ bir sonraki bölüme geçiyoruz. 
+
+ bıraktığımız sekans toprağa bağlı 
+
+ ama şimdi pozitif güç uyguluyoruz 
+
+ yapacak bir yerine girdi görmek 
+
+ devamı pozitif olanı yönlendirmek için 
+
+ mıknatıs daha da fazla 
+
+ girişleri değiştirerek 
+
+ rotasyon bu bizim 
+
+ bir girip çıkmamız gerekiyor 
+
+ B'de C'ye girip B'de çıkıyoruz 
+
+ ve toplamda altı farklı 
+
+ adımlar, ancak ne zaman geçiş yapacağımızı nasıl biliyoruz? 
+
+ bir sonraki adıma iş geliyor 
+
+ sensörlerin üzerine 
+
+ motor temsilimiz şu anda biz 
+
+ dizinin ilk adımında 
+
+ negatif pozitif ve bir tane daha var 
+
+ sensörlerin önünde negatif mıknatıs 
+
+ bize 1 0 1 çıktı verecek 
+
+ eğirme ve tüm sensör 
+
+ şimdi 0'a geç 
+
+ önündeki pozitif mıknatıs diğer 
+
+ iki sensör hala aynı, şimdi biz 
+
+ bir sonraki adım olan 0 0 1'e sahip olmak 
+
+ tam dönüş sırasındaki sıra 
+
+ salonun bu sekansına sahip olacağız 
+
+ Burada bu tablodaki gibi sensör çıkışları 
+
+ tek yapmamız gereken bunları tespit etmek 
+
+ mikrodenetleyici ve kontrol ile adımlar 
+
+ üçlü faz köprüsü bu 
+
+ üstte üç fazlı köprü şeması 
+
+ tarafında P MOSFET kullandım ve 
+
+ alt kısım ve kanal MOSFET 
+
+ kaynak doğrudan toprağa bağlı 
+
+ geçmiş elektronik hız öğretici 
+
+ denetleyicileri MOSFET sürücüsü kullandık 
+
+ transistörleri 
+
+ mikrodenetleyici 5 voltta çalışıyor ama biz 
+
+ daha yüksek bir voltaj uygulayacak 
+
+ MOSFET'ler bu sürücüyü kullanmayacağım 
+
+ basit ve adil tutmak için zaman 
+
+ bunun nasıl çalıştığını anlamak yerine 
+
+ bir BJT ile kendi sürücümü yapmak ve bir 
+
+ her MOSFET'in kapısından 
+
+ üstte bir MOSFET ve altta B 
+
+ aktif akım a ve 
+
+ sonra büyük bobin çıkış 
+
+ C MOSFET ve alt kaldırma 
+
+ aktive edildi, şimdi akım akıyor 
+
+ Her birinde görebileceğiniz gibi C'den B'ye vb. 
+
+ adım MOSFET'lerden ikisini kontrol ediyoruz 
+
+ köprünün üst tarafından 
+
+ diğeri ise birbirinden ayrı 
+
+ bu sansürümün şeması 
+
+ üzerine monte edilmiş elektronik hız kontrol cihazı 
+
+ benim breadboard ve yapmak için test 
+
+ sensör okuyacak ve yapacağım MOSFET'ler 
+
+ arduino i kullan bir BNC sensörü bağlayın 
+
+ arduino'nun 8 9 ve 10 pinlerine çıkışlar 
+
+ sonra 7 6 5 4 3 ve 2'yi 6 
+
+ Köprü MOSFET'lerini bağlarım 
+
+ potansiyometre - analog giriş a 3 inç 
+
+ motorun hızını kontrol etmek için 
+
+ saat sonra ana şebekeye 12 volt 
+
+ zengin bir giriş yaptık ama artık 
+
+ kod böylece bir göz atalım ben tanımlamak 
+
+ sensör pimleri bunlarla birlikte giriş olarak 
+
+ yazmacı i 8 9 ve 10 pinlerini yapılandırıyorum 
+
+ her seferinde bir kesinti oluşturmak için 
+
+ bu pinler bu durumu değiştirecek 
+
+ araya girme vektörüne git 
+
+ diziyi tespit edin ve faza karar verin 
+
+ duruma bağlı olarak rotasyonun 
+
+ 1 0 1 varsa salon sensörlerinin 
+
+ bir ilk adımımız varsa, 
+
+ 0 0 1 2 ikinci adım vb. 
+
+ Toplam 6 adımda tabloyu 
+
+ Kolay değil şimdi boşluk döngüsünde 
+
+ geçecek bir vaka oluştur 
+
+ Dizinin her adımında MOSFET'ler 
+
+ Hangi adımda olduğumuza bağlı olarak 
+
+ Bu durumda sıra kullanacağım 
+
+ dijital hak yerine manipülasyon 
+
+ çünkü bu çok daha hızlı, bu bir 
+
+ diğerinden gelen gelişmeler 
+
+ bağlantı noktası manipülasyonu kullanarak öğretici 
+
+ dijital hakkı kullanmaktan çok daha hızlı I 
+
+ potansiyometre hızını okuyun ve 
+
+ göre her adım arasında bir gecikme 
+
+ ile eşlenen potansiyometre okuma değeri 
+
+ 1 ila 4 bin arasında bir değer 
+
+ mikrosaniye lütfen tüm okuyun 
+
+ koddaki yorumlar 
+
+ daha fazla anlıyorum bir kod yükleyip 
+
+ tüm bağlantıların yapıldığından emin olun I 
+
+ devreyi besleyin ve gördüğünüz gibi 
+
+ fırçasız motor şimdi dönüyor 
+
+ Osiloskopumun probunu bağlarım 
+
+ MOSFET kapılarından birine 
+
+ kare dalga sinyalimiz var ama 
+
+ Motorumu yavaşlatmaya çalışıyorum 
+
+ mesajın ağırlığını ver 
+
+ eşleştirmek için otomatik olarak ayarla 
+
+ Motorun hızı ve yapalım 
+
+ Salon sensörü geri bildirimi ayrıca 
+
+ potansiyometre I hızını ayarlayabilirsiniz 
+
+ her biri arasındaki gecikmeyi değiştirerek motor 
+
+ dizinin adımı ancak genellikle 
+
+ ticari elektronik hız kontrol 
+
+ genişlikte bir PWM sinyal girişi kullanın 
+
+ 1000 ve 2000 mikrosaniye arasında değişir 
+
+ hızı kontrol etmek için 
+
+ kod i pin 11'i şimdi pwm girişi olarak ayarladı 
+
+ kesinti vektöründe her birini tespit ederim 
+
+ bu iğnenin durumu değiştirdiği zaman ve 
+
+ haritaladığım her poz arasındaki zamanı ölçmek 
+
+ bu değer 3000'den 10'a kadar bir gecikmeye 
+
+ mikrosaniye yapabilirsin 
+
+ bu değerleri test eder ve değiştirir 
+
+ şimdi motorunuza bir parça daha ekliyorum 
+
+ motorun başlaması için kod 
+
+ sadece PWM giriş değerleri için eğirme 
+
+ çok yaygın olan 1070'den daha yüksek 
+
+ Şimdi değeri tekrar test ediyorum ama 
+
+ şimdi radyo vericimi ve 
+
+ PWM alıcısı gördüğünüz gibi görebiliyorum 
+
+ hızı kontrol edin ve 
+
+ radyo alıcımla motor 
+
+ kod tür işleri derim ki 
+
+ çünkü şimdi mükemmel değil bunu kullanıyorum 
+
+ bulabileceğiniz son şematik 
+
+ aşağıdaki bağlantıya gidin ve tamamını bağlayın 
+
+ Bu matkap PCB'sinde devre ve 
+
+ atmega 328 eğer 60 megahertz ile 
+
+ kristal osilatör ve tüm 
+
+ çalışmasını sağlamak için ihtiyaç duyduğumuz bileşenler 
+
+ Ayrıca 5 voltluk voltaj regülatörüm var 
+
+ Atmega çipi için ve bu da 
+
+ motor sensörleri için op-amp tedarik edin 
+
+ Harici bir FTDI modülü kullanıyorum 
+
+ RX TX ve DTR pinlerini yükleyin ve kodu yükleyin 
+
+ PCB'nin PWM sinyali için bir girişi vardır 
+
+ radyo alıcısından ve her ikisini de paylaşır 
+
+ 5 volt ve toprak burada 
+
+ motorun 3 çağrısı için çıkış ve 
+
+ Salondan giriş ve tedarik 
+
+ sensörler ve işte bu kadar 
+
+ benim ev yapımı elektronik prototipim 
+
+ fırçasız sensörler için hız kontrol cihazı 
+
+ motorlar yani her birini kontrol ediyoruz 
+
+ üçlü fazın altı transistörü 
+
+ köprü tam bir sensör geri bildirimi var 
+
+ rotor pozisyonunu bilmek ve 
+
+ adaptör hızı otomatik olarak bir 
+
+ PWM giriş kontrolü, herhangi bir ticari ürün gibi 
+
+ elektronik hız kontrol ve biz var 
+
+ ayrıca salonun nasıl yükseltileceğine de baktı. 
+
+ sensörler o yüzden gidip arkadaşlarım biz 
+
+ ev yapımı elektronik hızımızı geliştirdik 
+
+ sensör ed fırçasız için kontrolör 
+
+ motorlar bunun sadece bir 
+
+ prototip hala çok güçlü değil 
+
+ her ikisinde de geliştirmek için çok parça var 
+
+ devre ve kod ve daha fazlası için 
+
+ öğrenme amaçları neyse umarım 
+
+ bu eğitim biraz öğrenmenize yardımcı oldu 
+
+ ESDS sensörlerinin nasıl çalıştığı ve nasıl yapılacağı hakkında daha fazla bilgi 
+
+ artırmak istiyorsanız bir tane inşa edin 
+
+ voltaj ve güç daha iyi bileşenler kullanır 
+
+ belki MOSFET yerine IGBT kullanın ve 
+
+ ayrıca kullanmanız durumunda bazı sürücüler ekleyin 
+
+ MOSFET'ler her zaman 
+
+ her bileşen ve maksimum görmek 
+
+ başlangıçta gördüğünüz değerler 
+
+ Transistörleri daha büyük motorlar kullanarak 
+
+ sadece ısındı ama motor dönmedi 
+
+ kullanabileceğiniz küçük motorlar için 
+
+ bipolar transistörler de 
+
+ her iki üst için n kanal mosfet kullanın 
+
+ köprünün bir kısmı ve alt kısmı 
+
+ ve bu arada değil 
+
+ önerilen kodu kontrol edin ve değiştirin 
+
+ çıkış değerleri diyorum çünkü 
+
+ bizim durumumuz n kanalını aktive ediyoruz 
+
+ O zamandan beri dijital yazma özelliği düşük MOSFET'ler 
+
+ şoför olarak bir BJT transistörümüz var 
+
+ kapısı ve p-kanalı MOSFET 
+
+ dijital yazma yüksek yani kullanırsanız 
+
+ isteyebileceğiniz farklı MOSFET'ler 
+
+ koddaki bu değerleri değiştirin 
+
+ ayrıca devreye güç vermeyin 
+
+ eğer tüm bunlardan emin değilseniz 
+
+ bağlantılar tüm şemaları kontrol eder 
+
+ parça listesi ve aşağıdaki kodlar ve daha fazlası 
+
+ web sayfamın elektroniği hakkında bilgi 
+
+ videolarım sana yardım ederse gel 
+
+ bunun gibi projelerime yardım etmeyi seviyorum 
+
+ bir patreon kampanyası var bağlantı kesik 
+
+ aşağıda her zamanki gibi gerçekten 
+
+ takdir ediyorum çocuklar umarım 
+
+ unutma, bu öğretici zevk 
+
+ beğen düğmesini tıklamak 
+
+ deli gibi ve bu videoyu paylaş 
+
+ herhangi bir sorunuz varsa arkadaşlarınız 
+
+ Bu video veya başka herhangi bir şey hakkında 
+
+ aşağıdaki yorum bölümünde veya benim 
+
+ Soru-Cevap sayfası da abone olmayı unutmayın 
+
+ ve diğer tüm harikalarımı izle 
+
+ öğreticiler ve düşünün unutmayın 
+
+ projelerimin patreonumu kontrol etmesine yardım et 
+
+ tekrar teşekkürler ve görüşürüz 
+
+ sonraki çocuklar 
+
+ [Müzik] 
+

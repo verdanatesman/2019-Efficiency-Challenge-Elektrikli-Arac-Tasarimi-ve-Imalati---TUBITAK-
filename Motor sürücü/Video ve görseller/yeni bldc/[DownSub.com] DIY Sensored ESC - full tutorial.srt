@@ -1,0 +1,1476 @@
+1
+00:00:00,060 --> 00:00:03,179
+ naber arkadaşlarım tekrar hoşgeldiniz 
+
+2
+00:00:03,179 --> 00:00:04,560
+ geçmişte öğretici bir inşa ettik 
+
+3
+00:00:04,560 --> 00:00:06,060
+ fırçasız elektronik hız kontrolü 
+
+4
+00:00:06,060 --> 00:00:08,550
+ motorlar bu cıvata 
+
+5
+00:00:08,550 --> 00:00:11,070
+ öğretici ve bu Arduino dayanmaktadır bu 
+
+6
+00:00:11,070 --> 00:00:13,139
+ sensörsüz fırçasız için bir ESC 
+
+7
+00:00:13,139 --> 00:00:15,570
+ bu videoda size nasıl olduğunu göstereceğim 
+
+8
+00:00:15,570 --> 00:00:17,130
+ rotorun konumunu tespit etmek 
+
+9
+00:00:17,130 --> 00:00:19,890
+ arka elektro-itici kuvveti kullanarak ama 
+
+10
+00:00:19,890 --> 00:00:21,420
+ devreyi oldukça karmaşık hale getiren 
+
+11
+00:00:21,420 --> 00:00:23,609
+ ve ayrıca kullandığım kod değil 
+
+12
+00:00:23,609 --> 00:00:26,400
+ En iyisi de bu öğreticide 
+
+13
+00:00:26,400 --> 00:00:28,260
+ başka bir elektronik hız kontrolü oluşturun 
+
+14
+00:00:28,260 --> 00:00:30,179
+ fırçasız motorlar için ve ayrıca geliştirmek 
+
+15
+00:00:30,179 --> 00:00:32,399
+ kod yani çocuklar burada ne olduğumuzu 
+
+16
+00:00:32,399 --> 00:00:33,930
+ yapacağım fırçasız alacağım 
+
+17
+00:00:33,930 --> 00:00:36,059
+ eski bir CD yazarından 
+
+18
+00:00:36,059 --> 00:00:37,950
+ bunun için bir devre kuracağız 
+
+19
+00:00:37,950 --> 00:00:39,600
+ salondan sinyalleri yükseltmek 
+
+20
+00:00:39,600 --> 00:00:41,550
+ sensörler sonra üçlü inşa edecek 
+
+21
+00:00:41,550 --> 00:00:42,870
+ faz köprüsü ve hız kontrolörü 
+
+22
+00:00:42,870 --> 00:00:45,059
+ ve son olarak kesintileri kullanmak 
+
+23
+00:00:45,059 --> 00:00:46,950
+ radyo alıcısından PW girişini okuma 
+
+24
+00:00:46,950 --> 00:00:49,050
+ ve motorun hızını 
+
+25
+00:00:49,050 --> 00:00:51,059
+ herhangi bir konvansiyon gibi 
+
+26
+00:00:51,059 --> 00:00:53,010
+ iletim kontrolü bunu yapalım 
+
+27
+00:00:53,010 --> 00:01:02,640
+ başla bu proje size getirildi 
+
+28
+00:01:02,640 --> 00:01:05,909
+ tarafından üreticisi jl c PCB 
+
+29
+00:01:05,909 --> 00:01:08,340
+ 10'dan fazla hızlı PCB prototipleri 
+
+30
+00:01:08,340 --> 00:01:10,920
+ yıl ve herkes için kullandığım site 
+
+31
+00:01:10,920 --> 00:01:14,369
+ benim pc b - 's tasarım alkışlamak senin 
+
+32
+00:01:14,369 --> 00:01:17,939
+ GL c PCB sitesindeki Gerber dosyaları 
+
+33
+00:01:17,939 --> 00:01:20,640
+ PCB tam inceleme seçin 
+
+34
+00:01:20,640 --> 00:01:23,100
+ İstediğiniz ayarları yapın ve PCB'yi 
+
+35
+00:01:23,100 --> 00:01:25,920
+ inanılmaz fiyatları on sipariş ettim 
+
+36
+00:01:25,920 --> 00:01:28,650
+ prototip PCB'ler sadece 2,00 $ ve 
+
+37
+00:01:28,650 --> 00:01:31,829
+ altı gün içinde onları al doğru 
+
+38
+00:01:31,829 --> 00:01:34,530
+ böylece kalite PCB sipariş ve yapmak 
+
+39
+00:01:34,530 --> 00:01:37,939
+ projeler çok daha profesyonel görünüyor 
+
+40
+00:01:38,340 --> 00:01:42,100
+ naber arkadaşlarım tekrar hoşgeldiniz 
+
+41
+00:01:42,100 --> 00:01:43,900
+ bu eğitimde bir sensör var 
+
+42
+00:01:43,900 --> 00:01:45,760
+ fırçasız motor böyle bir 
+
+43
+00:01:45,760 --> 00:01:47,860
+ zaten sensörler güçlendirilmiş ve 
+
+44
+00:01:47,860 --> 00:01:49,660
+ buradaki üç sensör çıkışının her biri 
+
+45
+00:01:49,660 --> 00:01:52,660
+ ama ne yazık ki bu motor çok büyük 
+
+46
+00:01:52,660 --> 00:01:54,820
+ ve büyük miktarda akım gerektirir 
+
+47
+00:01:54,820 --> 00:01:57,190
+ spin ve testler yaparken sadece 
+
+48
+00:01:57,190 --> 00:01:58,690
+ breadboard'umu aldım ama motor 
+
+49
+00:01:58,690 --> 00:02:01,420
+ dönmedi bile ben indirdim 
+
+50
+00:02:01,420 --> 00:02:03,220
+ Bu öğreticinin düzeyi ve 
+
+51
+00:02:03,220 --> 00:02:06,369
+ bu motor bu fırçasız üçlü 
+
+52
+00:02:06,369 --> 00:02:08,229
+ Bir motordan çıkardığım yüzlü motor 
+
+53
+00:02:08,229 --> 00:02:12,550
+ OKB yazarı tüm CD veya DVD'leri değil 
+
+54
+00:02:12,550 --> 00:02:14,980
+ yazarlar sensör motorları kullanıyor ama bu 
+
+55
+00:02:14,980 --> 00:02:18,130
+ motoru çıkarıp alır mıyım 
+
+56
+00:02:18,130 --> 00:02:21,310
+ ilk bakışta açıyorum ve gördüğünüz gibi 
+
+57
+00:02:21,310 --> 00:02:23,620
+ Motorun bobinleri ve üç 
+
+58
+00:02:23,620 --> 00:02:25,600
+ algılayacak çok küçük delik sensörleri 
+
+59
+00:02:25,600 --> 00:02:27,890
+ manyetik alanlar 
+
+60
+00:02:27,890 --> 00:02:31,819
+ her sensör için dört pim iki vardır 
+
+61
+00:02:31,819 --> 00:02:34,069
+ pozitif ve negatif çıktı ve iki için 
+
+62
+00:02:34,069 --> 00:02:37,430
+ beş tedarik etmek zorundayız arz 
+
+63
+00:02:37,430 --> 00:02:38,750
+ volt ve toprak her birine 
+
+64
+00:02:38,750 --> 00:02:40,790
+ sensörler ve sonra karşılaştırmak 
+
+65
+00:02:40,790 --> 00:02:43,010
+ sırayla negatif ve pozitif çıktılar 
+
+66
+00:02:43,010 --> 00:02:46,490
+ Sensör sinyalimizi almak için 
+
+67
+00:02:46,490 --> 00:02:49,130
+ dokuz kutuplu ve sensörlerin 
+
+68
+00:02:49,130 --> 00:02:51,080
+ birbirinden 40 derece ayrılmış 
+
+69
+00:02:51,080 --> 00:02:53,360
+ bu yüzden tespit etmek çok kolay olacak 
+
+70
+00:02:53,360 --> 00:02:55,739
+ motorun konumu 
+
+71
+00:02:55,739 --> 00:02:58,540
+ yapılacak ilk şey, 
+
+72
+00:02:58,540 --> 00:03:02,110
+ yönettiğim multimetreyi kullanarak iğne 
+
+73
+00:03:02,110 --> 00:03:04,930
+ Bu durumda her pimi bulmak için önce 
+
+74
+00:03:04,930 --> 00:03:06,879
+ pozitif ve negatif çıktılara sahip olmak 
+
+75
+00:03:06,879 --> 00:03:09,640
+ tüm sensörlerin pozitif ve 
+
+76
+00:03:09,640 --> 00:03:12,099
+ negatif besleme ve her giriş 
+
+77
+00:03:12,099 --> 00:03:14,920
+ motorun üç bobini ama 
+
+78
+00:03:14,920 --> 00:03:16,989
+ son proje bu motoru kullandım 
+
+79
+00:03:16,989 --> 00:03:18,940
+ burada görebileceğiniz başka bir CD yazıcı 
+
+80
+00:03:18,940 --> 00:03:21,430
+ bu PCB üzerinde ve bu pimlerin sırası 
+
+81
+00:03:21,430 --> 00:03:24,790
+ farklı bu bunun sırası 
+
+82
+00:03:24,790 --> 00:03:28,690
+ kullandığım motor biraz lehim yaptım 
+
+83
+00:03:28,690 --> 00:03:32,230
+ bir satın alırsanız bu pimlerin her birine teller 
+
+84
+00:03:32,230 --> 00:03:34,359
+ sansürlü motor tüm sensör 
+
+85
+00:03:34,359 --> 00:03:37,299
+ zaten mıknatıslıyken 
+
+86
+00:03:37,299 --> 00:03:39,099
+ önünde düşük ya da 
+
+87
+00:03:39,099 --> 00:03:41,620
+ bu durumda yüksek değer 
+
+88
+00:03:41,620 --> 00:03:43,150
+ volt burada gördüğünüz gibi benim 
+
+89
+00:03:43,150 --> 00:03:44,799
+ Bunu döndürdüğümde osiloskop 
+
+90
+00:03:44,799 --> 00:03:47,560
+ ticari sansürlü motor ama bizim bütün 
+
+91
+00:03:47,560 --> 00:03:50,049
+ sensörlerin yükseltici devresi yoktur, 
+
+92
+00:03:50,049 --> 00:03:53,109
+ Bunu yapmak için bir sonraki şey 
+
+93
+00:03:53,109 --> 00:03:56,170
+ beş tedarik ettiğimiz motor için şematik 
+
+94
+00:03:56,170 --> 00:03:58,359
+ volt ve topraklama sensörleri ve sonra 
+
+95
+00:03:58,359 --> 00:04:00,129
+ negatiflerin her birini bağlayacağız ve 
+
+96
+00:04:00,129 --> 00:04:02,230
+ her sensörün pozitif çıkışları 
+
+97
+00:04:02,230 --> 00:04:05,139
+ karşılaştırıcı bu durumda kullanacağım 
+
+98
+00:04:05,139 --> 00:04:07,930
+ LM 3-4 IC zaten dört O olduğundan 
+
+99
+00:04:07,930 --> 00:04:09,880
+ Pam 
+
+100
+00:04:09,880 --> 00:04:12,640
+ her seferinde pozitif çıktı 
+
+101
+00:04:12,640 --> 00:04:14,560
+ tüm sensör negatiften daha yüksek 
+
+102
+00:04:14,560 --> 00:04:17,260
+ çıktıda yüksek anketlerimiz olacak 
+
+103
+00:04:17,260 --> 00:04:19,000
+ pozitif veya negatif tespit edebiliriz 
+
+104
+00:04:19,000 --> 00:04:22,570
+ manyetik alanları her şeyi bir lehim üzerine 
+
+105
+00:04:22,570 --> 00:04:25,690
+ böyle bir çift PCB parçası hatırlıyorum 
+
+106
+00:04:25,690 --> 00:04:28,240
+ 5'e 100 ohm direnç eklemek için 
+
+107
+00:04:28,240 --> 00:04:29,800
+ volt ve salon sensörü pozitif 
+
+108
+00:04:29,800 --> 00:04:33,060
+ akımı sınırlamak için besleme 
+
+109
+00:04:33,180 --> 00:04:35,590
+ burada üç giriş var 
+
+110
+00:04:35,590 --> 00:04:38,470
+ siyah telli motor bobinleri ve 
+
+111
+00:04:38,470 --> 00:04:40,210
+ sensörler için beş volt besleme ve 
+
+112
+00:04:40,210 --> 00:04:43,350
+ sensörlerin her biri güçlendirilmiş çıkışlar I 
+
+113
+00:04:43,350 --> 00:04:45,670
+ PCB'ye güç verin ve 
+
+114
+00:04:45,670 --> 00:04:48,630
+ osiloskop - sensör çıkışı amb 
+
+115
+00:04:48,630 --> 00:04:51,730
+ şimdi motoru döndürüyorum ve gördüğünüz gibi 
+
+116
+00:04:51,730 --> 00:04:53,500
+ her pim için kare bir sinyalimiz var 
+
+117
+00:04:53,500 --> 00:04:55,180
+ faz farkının üçte biri ile 
+
+118
+00:04:55,180 --> 00:04:59,140
+ şimdi her sinyal arasında sensörü bağlarım 
+
+119
+00:04:59,140 --> 00:05:01,600
+ a ve C ve gördüğünüz gibi şimdi 
+
+120
+00:05:01,600 --> 00:05:04,900
+ iki çim faz farkı bu üç 
+
+121
+00:05:04,900 --> 00:05:06,700
+ sinyaller pozisyonu bilmemize yardımcı olacak 
+
+122
+00:05:06,700 --> 00:05:10,300
+ rotorun tamam çocuklar bakalım 
+
+123
+00:05:10,300 --> 00:05:12,310
+ bir kez daha fırçasız motorun nasıl 
+
+124
+00:05:12,310 --> 00:05:15,550
+ kontrol işe yarayacak 
+
+125
+00:05:15,550 --> 00:05:17,230
+ diğer öğreticime bir bakış 
+
+126
+00:05:17,230 --> 00:05:18,610
+ arduino tabanlı elektronik hız 
+
+127
+00:05:18,610 --> 00:05:22,800
+ denetleyici motorumuzda üç bobin I 
+
+128
+00:05:22,800 --> 00:05:25,780
+ içeride dokuz bobin görebileceğimizi biliyorum 
+
+129
+00:05:25,780 --> 00:05:27,490
+ ama gerçek şu ki bunlar üç 
+
+130
+00:05:27,490 --> 00:05:31,420
+ bobinler üzerinde çevrimiçi anketler yara 
+
+131
+00:05:31,420 --> 00:05:34,080
+ Motorun dışı 12 mıknatıs var 
+
+132
+00:05:34,080 --> 00:05:37,450
+ bu motor manyetik şerit kullanır, böylece 
+
+133
+00:05:37,450 --> 00:05:39,910
+ 12 farklı mıknatıs görmek ama orada 
+
+134
+00:05:39,910 --> 00:05:41,890
+ bizim gibi 12 farklı polarite mıknatısı 
+
+135
+00:05:41,890 --> 00:05:43,330
+ burada diğer fırçasız görebilirsiniz 
+
+136
+00:05:43,330 --> 00:05:48,040
+ motor bu bizim temsili 
+
+137
+00:05:48,040 --> 00:05:51,700
+ motor stator üzerinde dokuz kutup var 
+
+138
+00:05:51,700 --> 00:05:54,340
+ Rotorda 12 mıknatıs ve üç 
+
+139
+00:05:54,340 --> 00:05:56,370
+ sensörler 
+
+140
+00:05:56,370 --> 00:05:58,780
+ üç çağrımız olduğundan 
+
+141
+00:05:58,780 --> 00:06:02,500
+ üç giriş B ve C, böylece bir 
+
+142
+00:06:02,500 --> 00:06:04,060
+ Bunu kontrol etmek için üç fazlı köprü 
+
+143
+00:06:04,060 --> 00:06:07,930
+ rotasyonu kontrol etmek için motor 
+
+144
+00:06:07,930 --> 00:06:10,120
+ bunlara güç uygulamak zorunda kalacağımız hız 
+
+145
+00:06:10,120 --> 00:06:13,810
+ belli bir sırayla üç girdi 
+
+146
+00:06:13,810 --> 00:06:15,790
+ bir girişe pozitif güçle başlayın 
+
+147
+00:06:15,790 --> 00:06:19,120
+ ve B'ye toprakla C girişini bırakıyoruz 
+
+148
+00:06:19,120 --> 00:06:21,300
+ ona bağlı hiçbir şey olmadan yüzer 
+
+149
+00:06:21,300 --> 00:06:23,950
+ manyetik alan yaratacak. 
+
+150
+00:06:23,950 --> 00:06:25,930
+ rotoru itecek bir bobin 
+
+151
+00:06:25,930 --> 00:06:27,910
+ doğru ve büyük bobinlere 
+
+152
+00:06:27,910 --> 00:06:29,530
+ rotoru da sağa sürükleyecek 
+
+153
+00:06:29,530 --> 00:06:31,360
+ çünkü pozitif ile pozitif 
+
+154
+00:06:31,360 --> 00:06:33,010
+ pozitif ile itici ve negatif 
+
+155
+00:06:33,010 --> 00:06:35,950
+ çekecek ama eğer değiştirmezsek 
+
+156
+00:06:35,950 --> 00:06:39,550
+ dönme burada duracak girişler 
+
+157
+00:06:39,550 --> 00:06:41,320
+ bir sonraki bölüme geçiyoruz. 
+
+158
+00:06:41,320 --> 00:06:44,650
+ bıraktığımız sekans toprağa bağlı 
+
+159
+00:06:44,650 --> 00:06:46,900
+ ama şimdi pozitif güç uyguluyoruz 
+
+160
+00:06:46,900 --> 00:06:50,050
+ yapacak bir yerine girdi görmek 
+
+161
+00:06:50,050 --> 00:06:51,669
+ devamı pozitif olanı yönlendirmek için 
+
+162
+00:06:51,669 --> 00:06:53,590
+ mıknatıs daha da fazla 
+
+163
+00:06:53,590 --> 00:06:55,479
+ girişleri değiştirerek 
+
+164
+00:06:55,479 --> 00:06:58,509
+ rotasyon bu bizim 
+
+165
+00:06:58,509 --> 00:07:01,570
+ bir girip çıkmamız gerekiyor 
+
+166
+00:07:01,570 --> 00:07:05,199
+ B'de C'ye girip B'de çıkıyoruz 
+
+167
+00:07:05,199 --> 00:07:07,690
+ ve toplamda altı farklı 
+
+168
+00:07:07,690 --> 00:07:11,020
+ adımlar, ancak ne zaman geçiş yapacağımızı nasıl biliyoruz? 
+
+169
+00:07:11,020 --> 00:07:14,500
+ bir sonraki adıma iş geliyor 
+
+170
+00:07:14,500 --> 00:07:16,539
+ sensörlerin üzerine 
+
+171
+00:07:16,539 --> 00:07:20,139
+ motor temsilimiz şu anda biz 
+
+172
+00:07:20,139 --> 00:07:22,570
+ dizinin ilk adımında 
+
+173
+00:07:22,570 --> 00:07:24,880
+ negatif pozitif ve bir tane daha var 
+
+174
+00:07:24,880 --> 00:07:26,830
+ sensörlerin önünde negatif mıknatıs 
+
+175
+00:07:26,830 --> 00:07:32,470
+ bize 1 0 1 çıktı verecek 
+
+176
+00:07:32,470 --> 00:07:34,720
+ eğirme ve tüm sensör 
+
+177
+00:07:34,720 --> 00:07:36,820
+ şimdi 0'a geç 
+
+178
+00:07:36,820 --> 00:07:40,030
+ önündeki pozitif mıknatıs diğer 
+
+179
+00:07:40,030 --> 00:07:43,120
+ iki sensör hala aynı, şimdi biz 
+
+180
+00:07:43,120 --> 00:07:45,849
+ bir sonraki adım olan 0 0 1'e sahip olmak 
+
+181
+00:07:45,849 --> 00:07:49,150
+ tam dönüş sırasındaki sıra 
+
+182
+00:07:49,150 --> 00:07:51,039
+ salonun bu sekansına sahip olacağız 
+
+183
+00:07:51,039 --> 00:07:54,750
+ Burada bu tablodaki gibi sensör çıkışları 
+
+184
+00:07:54,750 --> 00:07:57,099
+ tek yapmamız gereken bunları tespit etmek 
+
+185
+00:07:57,099 --> 00:07:59,260
+ mikrodenetleyici ve kontrol ile adımlar 
+
+186
+00:07:59,260 --> 00:08:03,190
+ üçlü faz köprüsü bu 
+
+187
+00:08:03,190 --> 00:08:06,520
+ üstte üç fazlı köprü şeması 
+
+188
+00:08:06,520 --> 00:08:08,830
+ tarafında P MOSFET kullandım ve 
+
+189
+00:08:08,830 --> 00:08:10,930
+ alt kısım ve kanal MOSFET 
+
+190
+00:08:10,930 --> 00:08:12,490
+ kaynak doğrudan toprağa bağlı 
+
+191
+00:08:12,490 --> 00:08:15,940
+ geçmiş elektronik hız öğretici 
+
+192
+00:08:15,940 --> 00:08:18,099
+ denetleyicileri MOSFET sürücüsü kullandık 
+
+193
+00:08:18,099 --> 00:08:20,080
+ transistörleri 
+
+194
+00:08:20,080 --> 00:08:22,479
+ mikrodenetleyici 5 voltta çalışıyor ama biz 
+
+195
+00:08:22,479 --> 00:08:24,099
+ daha yüksek bir voltaj uygulayacak 
+
+196
+00:08:24,099 --> 00:08:27,610
+ MOSFET'ler bu sürücüyü kullanmayacağım 
+
+197
+00:08:27,610 --> 00:08:29,620
+ basit ve adil tutmak için zaman 
+
+198
+00:08:29,620 --> 00:08:33,429
+ bunun nasıl çalıştığını anlamak yerine 
+
+199
+00:08:33,429 --> 00:08:35,770
+ bir BJT ile kendi sürücümü yapmak ve bir 
+
+200
+00:08:35,770 --> 00:08:39,039
+ her MOSFET'in kapısından 
+
+201
+00:08:39,039 --> 00:08:40,958
+ üstte bir MOSFET ve altta B 
+
+202
+00:08:40,958 --> 00:08:43,270
+ aktif akım a ve 
+
+203
+00:08:43,270 --> 00:08:47,980
+ sonra büyük bobin çıkış 
+
+204
+00:08:47,980 --> 00:08:49,870
+ C MOSFET ve alt kaldırma 
+
+205
+00:08:49,870 --> 00:08:52,209
+ aktive edildi, şimdi akım akıyor 
+
+206
+00:08:52,209 --> 00:08:57,010
+ Her birinde görebileceğiniz gibi C'den B'ye vb. 
+
+207
+00:08:57,010 --> 00:08:59,380
+ adım MOSFET'lerden ikisini kontrol ediyoruz 
+
+208
+00:08:59,380 --> 00:09:00,730
+ köprünün üst tarafından 
+
+209
+00:09:00,730 --> 00:09:03,600
+ diğeri ise birbirinden ayrı 
+
+210
+00:09:03,600 --> 00:09:06,160
+ bu sansürümün şeması 
+
+211
+00:09:06,160 --> 00:09:09,730
+ üzerine monte edilmiş elektronik hız kontrol cihazı 
+
+212
+00:09:09,730 --> 00:09:14,019
+ benim breadboard ve yapmak için test 
+
+213
+00:09:14,019 --> 00:09:15,850
+ sensör okuyacak ve yapacağım MOSFET'ler 
+
+214
+00:09:15,850 --> 00:09:20,019
+ arduino i kullan bir BNC sensörü bağlayın 
+
+215
+00:09:20,019 --> 00:09:23,880
+ arduino'nun 8 9 ve 10 pinlerine çıkışlar 
+
+216
+00:09:23,880 --> 00:09:27,880
+ sonra 7 6 5 4 3 ve 2'yi 6 
+
+217
+00:09:27,880 --> 00:09:31,540
+ Köprü MOSFET'lerini bağlarım 
+
+218
+00:09:31,540 --> 00:09:33,850
+ potansiyometre - analog giriş a 3 inç 
+
+219
+00:09:33,850 --> 00:09:36,720
+ motorun hızını kontrol etmek için 
+
+220
+00:09:36,720 --> 00:09:39,519
+ saat sonra ana şebekeye 12 volt 
+
+221
+00:09:39,519 --> 00:09:41,440
+ zengin bir giriş yaptık ama artık 
+
+222
+00:09:41,440 --> 00:09:45,070
+ kod böylece bir göz atalım ben tanımlamak 
+
+223
+00:09:45,070 --> 00:09:48,610
+ sensör pimleri bunlarla birlikte giriş olarak 
+
+224
+00:09:48,610 --> 00:09:51,160
+ yazmacı i 8 9 ve 10 pinlerini yapılandırıyorum 
+
+225
+00:09:51,160 --> 00:09:55,000
+ her seferinde bir kesinti oluşturmak için 
+
+226
+00:09:55,000 --> 00:09:56,709
+ bu pinler bu durumu değiştirecek 
+
+227
+00:09:56,709 --> 00:10:01,120
+ araya girme vektörüne git 
+
+228
+00:10:01,120 --> 00:10:02,889
+ diziyi tespit edin ve faza karar verin 
+
+229
+00:10:02,889 --> 00:10:04,959
+ duruma bağlı olarak rotasyonun 
+
+230
+00:10:04,959 --> 00:10:08,860
+ 1 0 1 varsa salon sensörlerinin 
+
+231
+00:10:08,860 --> 00:10:11,769
+ bir ilk adımımız varsa, 
+
+232
+00:10:11,769 --> 00:10:14,470
+ 0 0 1 2 ikinci adım vb. 
+
+233
+00:10:14,470 --> 00:10:16,949
+ Toplam 6 adımda tabloyu 
+
+234
+00:10:16,949 --> 00:10:20,560
+ Kolay değil şimdi boşluk döngüsünde 
+
+235
+00:10:20,560 --> 00:10:22,000
+ geçecek bir vaka oluştur 
+
+236
+00:10:22,000 --> 00:10:23,769
+ Dizinin her adımında MOSFET'ler 
+
+237
+00:10:23,769 --> 00:10:25,569
+ Hangi adımda olduğumuza bağlı olarak 
+
+238
+00:10:25,569 --> 00:10:29,620
+ Bu durumda sıra kullanacağım 
+
+239
+00:10:29,620 --> 00:10:31,540
+ dijital hak yerine manipülasyon 
+
+240
+00:10:31,540 --> 00:10:35,649
+ çünkü bu çok daha hızlı, bu bir 
+
+241
+00:10:35,649 --> 00:10:36,819
+ diğerinden gelen gelişmeler 
+
+242
+00:10:36,819 --> 00:10:39,579
+ bağlantı noktası manipülasyonu kullanarak öğretici 
+
+243
+00:10:39,579 --> 00:10:43,410
+ dijital hakkı kullanmaktan çok daha hızlı I 
+
+244
+00:10:43,410 --> 00:10:45,970
+ potansiyometre hızını okuyun ve 
+
+245
+00:10:45,970 --> 00:10:47,829
+ göre her adım arasında bir gecikme 
+
+246
+00:10:47,829 --> 00:10:50,170
+ ile eşlenen potansiyometre okuma değeri 
+
+247
+00:10:50,170 --> 00:10:51,850
+ 1 ila 4 bin arasında bir değer 
+
+248
+00:10:51,850 --> 00:10:55,269
+ mikrosaniye lütfen tüm okuyun 
+
+249
+00:10:55,269 --> 00:10:56,860
+ koddaki yorumlar 
+
+250
+00:10:56,860 --> 00:11:00,430
+ daha fazla anlıyorum bir kod yükleyip 
+
+251
+00:11:00,430 --> 00:11:03,209
+ tüm bağlantıların yapıldığından emin olun I 
+
+252
+00:11:03,209 --> 00:11:05,380
+ devreyi besleyin ve gördüğünüz gibi 
+
+253
+00:11:05,380 --> 00:11:09,269
+ fırçasız motor şimdi dönüyor 
+
+254
+00:11:10,360 --> 00:11:12,970
+ Osiloskopumun probunu bağlarım 
+
+255
+00:11:12,970 --> 00:11:16,209
+ MOSFET kapılarından birine 
+
+256
+00:11:16,209 --> 00:11:19,269
+ kare dalga sinyalimiz var ama 
+
+257
+00:11:19,269 --> 00:11:20,980
+ Motorumu yavaşlatmaya çalışıyorum 
+
+258
+00:11:20,980 --> 00:11:22,540
+ mesajın ağırlığını ver 
+
+259
+00:11:22,540 --> 00:11:24,610
+ eşleştirmek için otomatik olarak ayarla 
+
+260
+00:11:24,610 --> 00:11:26,589
+ Motorun hızı ve yapalım 
+
+261
+00:11:26,589 --> 00:11:31,540
+ Salon sensörü geri bildirimi ayrıca 
+
+262
+00:11:31,540 --> 00:11:33,370
+ potansiyometre I hızını ayarlayabilirsiniz 
+
+263
+00:11:33,370 --> 00:11:35,170
+ her biri arasındaki gecikmeyi değiştirerek motor 
+
+264
+00:11:35,170 --> 00:11:38,620
+ dizinin adımı ancak genellikle 
+
+265
+00:11:38,620 --> 00:11:40,329
+ ticari elektronik hız kontrol 
+
+266
+00:11:40,329 --> 00:11:42,640
+ genişlikte bir PWM sinyal girişi kullanın 
+
+267
+00:11:42,640 --> 00:11:45,370
+ 1000 ve 2000 mikrosaniye arasında değişir 
+
+268
+00:11:45,370 --> 00:11:48,250
+ hızı kontrol etmek için 
+
+269
+00:11:48,250 --> 00:11:52,630
+ kod i pin 11'i şimdi pwm girişi olarak ayarladı 
+
+270
+00:11:52,630 --> 00:11:54,640
+ kesinti vektöründe her birini tespit ederim 
+
+271
+00:11:54,640 --> 00:11:56,410
+ bu iğnenin durumu değiştirdiği zaman ve 
+
+272
+00:11:56,410 --> 00:12:00,190
+ haritaladığım her poz arasındaki zamanı ölçmek 
+
+273
+00:12:00,190 --> 00:12:02,560
+ bu değer 3000'den 10'a kadar bir gecikmeye 
+
+274
+00:12:02,560 --> 00:12:05,769
+ mikrosaniye yapabilirsin 
+
+275
+00:12:05,769 --> 00:12:07,600
+ bu değerleri test eder ve değiştirir 
+
+276
+00:12:07,600 --> 00:12:11,800
+ şimdi motorunuza bir parça daha ekliyorum 
+
+277
+00:12:11,800 --> 00:12:13,810
+ motorun başlaması için kod 
+
+278
+00:12:13,810 --> 00:12:16,120
+ sadece PWM giriş değerleri için eğirme 
+
+279
+00:12:16,120 --> 00:12:19,000
+ çok yaygın olan 1070'den daha yüksek 
+
+280
+00:12:19,000 --> 00:12:23,079
+ Şimdi değeri tekrar test ediyorum ama 
+
+281
+00:12:23,079 --> 00:12:25,089
+ şimdi radyo vericimi ve 
+
+282
+00:12:25,089 --> 00:12:28,839
+ PWM alıcısı gördüğünüz gibi görebiliyorum 
+
+283
+00:12:28,839 --> 00:12:30,699
+ hızı kontrol edin ve 
+
+284
+00:12:30,699 --> 00:12:32,050
+ radyo alıcımla motor 
+
+285
+00:12:32,050 --> 00:12:35,500
+ kod tür işleri derim ki 
+
+286
+00:12:35,500 --> 00:12:39,699
+ çünkü şimdi mükemmel değil bunu kullanıyorum 
+
+287
+00:12:39,699 --> 00:12:41,290
+ bulabileceğiniz son şematik 
+
+288
+00:12:41,290 --> 00:12:43,000
+ aşağıdaki bağlantıya gidin ve tamamını bağlayın 
+
+289
+00:12:43,000 --> 00:12:45,399
+ Bu matkap PCB'sinde devre ve 
+
+290
+00:12:45,399 --> 00:12:48,399
+ atmega 328 eğer 60 megahertz ile 
+
+291
+00:12:48,399 --> 00:12:50,079
+ kristal osilatör ve tüm 
+
+292
+00:12:50,079 --> 00:12:51,790
+ çalışmasını sağlamak için ihtiyaç duyduğumuz bileşenler 
+
+293
+00:12:51,790 --> 00:12:55,630
+ Ayrıca 5 voltluk voltaj regülatörüm var 
+
+294
+00:12:55,630 --> 00:12:57,550
+ Atmega çipi için ve bu da 
+
+295
+00:12:57,550 --> 00:12:59,529
+ motor sensörleri için op-amp tedarik edin 
+
+296
+00:12:59,529 --> 00:13:04,930
+ Harici bir FTDI modülü kullanıyorum 
+
+297
+00:13:04,930 --> 00:13:08,430
+ RX TX ve DTR pinlerini yükleyin ve kodu yükleyin 
+
+298
+00:13:08,430 --> 00:13:11,649
+ PCB'nin PWM sinyali için bir girişi vardır 
+
+299
+00:13:11,649 --> 00:13:13,600
+ radyo alıcısından ve her ikisini de paylaşır 
+
+300
+00:13:13,600 --> 00:13:17,740
+ 5 volt ve toprak burada 
+
+301
+00:13:17,740 --> 00:13:19,690
+ motorun 3 çağrısı için çıkış ve 
+
+302
+00:13:19,690 --> 00:13:21,490
+ Salondan giriş ve tedarik 
+
+303
+00:13:21,490 --> 00:13:24,190
+ sensörler ve işte bu kadar 
+
+304
+00:13:24,190 --> 00:13:26,380
+ benim ev yapımı elektronik prototipim 
+
+305
+00:13:26,380 --> 00:13:27,970
+ fırçasız sensörler için hız kontrol cihazı 
+
+306
+00:13:27,970 --> 00:13:32,470
+ motorlar yani her birini kontrol ediyoruz 
+
+307
+00:13:32,470 --> 00:13:34,060
+ üçlü fazın altı transistörü 
+
+308
+00:13:34,060 --> 00:13:36,730
+ köprü tam bir sensör geri bildirimi var 
+
+309
+00:13:36,730 --> 00:13:38,980
+ rotor pozisyonunu bilmek ve 
+
+310
+00:13:38,980 --> 00:13:41,890
+ adaptör hızı otomatik olarak bir 
+
+311
+00:13:41,890 --> 00:13:44,230
+ PWM giriş kontrolü, herhangi bir ticari ürün gibi 
+
+312
+00:13:44,230 --> 00:13:46,180
+ elektronik hız kontrol ve biz var 
+
+313
+00:13:46,180 --> 00:13:47,980
+ ayrıca salonun nasıl yükseltileceğine de baktı. 
+
+314
+00:13:47,980 --> 00:13:51,550
+ sensörler o yüzden gidip arkadaşlarım biz 
+
+315
+00:13:51,550 --> 00:13:53,410
+ ev yapımı elektronik hızımızı geliştirdik 
+
+316
+00:13:53,410 --> 00:13:54,820
+ sensör ed fırçasız için kontrolör 
+
+317
+00:13:54,820 --> 00:13:57,760
+ motorlar bunun sadece bir 
+
+318
+00:13:57,760 --> 00:14:00,520
+ prototip hala çok güçlü değil 
+
+319
+00:14:00,520 --> 00:14:02,350
+ her ikisinde de geliştirmek için çok parça var 
+
+320
+00:14:02,350 --> 00:14:04,120
+ devre ve kod ve daha fazlası için 
+
+321
+00:14:04,120 --> 00:14:07,690
+ öğrenme amaçları neyse umarım 
+
+322
+00:14:07,690 --> 00:14:09,250
+ bu eğitim biraz öğrenmenize yardımcı oldu 
+
+323
+00:14:09,250 --> 00:14:11,830
+ ESDS sensörlerinin nasıl çalıştığı ve nasıl yapılacağı hakkında daha fazla bilgi 
+
+324
+00:14:11,830 --> 00:14:14,830
+ artırmak istiyorsanız bir tane inşa edin 
+
+325
+00:14:14,830 --> 00:14:17,290
+ voltaj ve güç daha iyi bileşenler kullanır 
+
+326
+00:14:17,290 --> 00:14:20,760
+ belki MOSFET yerine IGBT kullanın ve 
+
+327
+00:14:20,760 --> 00:14:23,290
+ ayrıca kullanmanız durumunda bazı sürücüler ekleyin 
+
+328
+00:14:23,290 --> 00:14:27,100
+ MOSFET'ler her zaman 
+
+329
+00:14:27,100 --> 00:14:29,020
+ her bileşen ve maksimum görmek 
+
+330
+00:14:29,020 --> 00:14:32,410
+ başlangıçta gördüğünüz değerler 
+
+331
+00:14:32,410 --> 00:14:34,900
+ Transistörleri daha büyük motorlar kullanarak 
+
+332
+00:14:34,900 --> 00:14:37,060
+ sadece ısındı ama motor dönmedi 
+
+333
+00:14:37,060 --> 00:14:40,300
+ kullanabileceğiniz küçük motorlar için 
+
+334
+00:14:40,300 --> 00:14:42,910
+ bipolar transistörler de 
+
+335
+00:14:42,910 --> 00:14:44,710
+ her iki üst için n kanal mosfet kullanın 
+
+336
+00:14:44,710 --> 00:14:46,420
+ köprünün bir kısmı ve alt kısmı 
+
+337
+00:14:46,420 --> 00:14:48,220
+ ve bu arada değil 
+
+338
+00:14:48,220 --> 00:14:50,050
+ önerilen kodu kontrol edin ve değiştirin 
+
+339
+00:14:50,050 --> 00:14:53,020
+ çıkış değerleri diyorum çünkü 
+
+340
+00:14:53,020 --> 00:14:54,520
+ bizim durumumuz n kanalını aktive ediyoruz 
+
+341
+00:14:54,520 --> 00:14:57,070
+ O zamandan beri dijital yazma özelliği düşük MOSFET'ler 
+
+342
+00:14:57,070 --> 00:14:59,230
+ şoför olarak bir BJT transistörümüz var 
+
+343
+00:14:59,230 --> 00:15:01,810
+ kapısı ve p-kanalı MOSFET 
+
+344
+00:15:01,810 --> 00:15:04,390
+ dijital yazma yüksek yani kullanırsanız 
+
+345
+00:15:04,390 --> 00:15:05,860
+ isteyebileceğiniz farklı MOSFET'ler 
+
+346
+00:15:05,860 --> 00:15:07,950
+ koddaki bu değerleri değiştirin 
+
+347
+00:15:07,950 --> 00:15:10,810
+ ayrıca devreye güç vermeyin 
+
+348
+00:15:10,810 --> 00:15:12,100
+ eğer tüm bunlardan emin değilseniz 
+
+349
+00:15:12,100 --> 00:15:15,700
+ bağlantılar tüm şemaları kontrol eder 
+
+350
+00:15:15,700 --> 00:15:18,400
+ parça listesi ve aşağıdaki kodlar ve daha fazlası 
+
+351
+00:15:18,400 --> 00:15:20,500
+ web sayfamın elektroniği hakkında bilgi 
+
+352
+00:15:20,500 --> 00:15:23,740
+ videolarım sana yardım ederse gel 
+
+353
+00:15:23,740 --> 00:15:25,660
+ bunun gibi projelerime yardım etmeyi seviyorum 
+
+354
+00:15:25,660 --> 00:15:28,630
+ bir patreon kampanyası var bağlantı kesik 
+
+355
+00:15:28,630 --> 00:15:30,790
+ aşağıda her zamanki gibi gerçekten 
+
+356
+00:15:30,790 --> 00:15:33,880
+ takdir ediyorum çocuklar umarım 
+
+357
+00:15:33,880 --> 00:15:36,520
+ unutma, bu öğretici zevk 
+
+358
+00:15:36,520 --> 00:15:37,900
+ beğen düğmesini tıklamak 
+
+359
+00:15:37,900 --> 00:15:39,580
+ deli gibi ve bu videoyu paylaş 
+
+360
+00:15:39,580 --> 00:15:42,520
+ herhangi bir sorunuz varsa arkadaşlarınız 
+
+361
+00:15:42,520 --> 00:15:44,980
+ Bu video veya başka herhangi bir şey hakkında 
+
+362
+00:15:44,980 --> 00:15:46,720
+ aşağıdaki yorum bölümünde veya benim 
+
+363
+00:15:46,720 --> 00:15:50,410
+ Soru-Cevap sayfası da abone olmayı unutmayın 
+
+364
+00:15:50,410 --> 00:15:51,880
+ ve diğer tüm harikalarımı izle 
+
+365
+00:15:51,880 --> 00:15:54,880
+ öğreticiler ve düşünün unutmayın 
+
+366
+00:15:54,880 --> 00:15:56,710
+ projelerimin patreonumu kontrol etmesine yardım et 
+
+367
+00:15:56,710 --> 00:15:59,500
+ tekrar teşekkürler ve görüşürüz 
+
+368
+00:15:59,500 --> 00:16:00,960
+ sonraki çocuklar 
+
+369
+00:16:00,960 --> 00:00:00,000
+ [Müzik] 
+

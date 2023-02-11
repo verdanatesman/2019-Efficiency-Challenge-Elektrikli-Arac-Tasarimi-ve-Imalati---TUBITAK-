@@ -1,0 +1,10 @@
+3x IR2104 mos sürücü ( SOIC-8 smd entegre )
+6x IRFZ46N mosfet     
+3 x 1N4148 diode        ( 5.55mm iki uc arası )
+3 x 10uF capacitor   25V
+3 x 2.2uF capacitor  25V
+3 x 10k ohm resistor
+7 x 100 ohm resistor
+10k ohm (or less) potentiometer
+12V source
+	
